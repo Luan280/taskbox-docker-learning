@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "TaskBox funcionando!"
+    return "TaskBox executando com Docker Compose!"
